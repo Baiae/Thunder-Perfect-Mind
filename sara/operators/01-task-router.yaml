@@ -1,0 +1,29 @@
+# Maps domain names to operator file paths (relative to this directory).
+# loader.py always loads: postures → foundational → situational[domain].
+# Unknown domains fall back to situational.general.
+
+postures:
+  - 02-postures.md
+
+foundational:
+  - 03-foundational-mental-models.md
+  - 04-foundational-decision-protocol.md
+  - 05-foundational-ice-scoring.md
+
+situational:
+  morning:
+    - 06-situational-morning.md
+  lesson:
+    - 07-situational-lesson.md
+  review:
+    - 08-situational-review.md
+  weekly:
+    - 09-situational-weekly.md
+  indranet:
+    - 10-situational-indranet.md
+  goals:
+    - 11-situational-goals.md
+  general:
+    - 12-situational-general.md
+  code:
+    - 13-situational-code.md
